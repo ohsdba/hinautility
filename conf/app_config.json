@@ -4,7 +4,7 @@
     "app_title": "数据爆表工具",
     "db_statement_timeout": 45,
     "db_connect_timeout": 15,
-    "app_password": "enc:BQ==",
+    "app_password": "",
     "app_max_connections": 10,
     "app_min_connections": 1,
     "app_connection_pool_timeout": 30,

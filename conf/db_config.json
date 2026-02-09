@@ -1,0 +1,37 @@
+{
+  "databases": [
+    {
+      "id": "db_1769493530071_f5d9ff7d-460f-4fef-a8cf-f1a9ba6a20a3",
+      "name": "pg生产数据库",
+      "type": "postgresql",
+      "host": "localhost",
+      "port": "25432",
+      "user": "postgres",
+      "password": "enc:CwkHBT0C",
+      "database": "postgres",
+      "is_default": true
+    },
+    {
+      "id": "db_1769595742606_d580b6ce-bc86-4456-8c06-8867af620faf",
+      "name": "Kingbase数据库",
+      "type": "kingbase",
+      "host": "localhost",
+      "port": "25432",
+      "user": "postgres",
+      "password": "enc:CwkHBT0C",
+      "database": "postgres",
+      "is_default": false
+    },
+    {
+      "id": "1183c2f6-e2d0-4867-a4e4-76c05c00c221",
+      "name": "Yanshan",
+      "type": "yashandb",
+      "host": "192.168.10.234",
+      "port": "1688",
+      "user": "sys",
+      "password": "enc:HQAHCT4N",
+      "database": "ohs",
+      "is_default": false
+    }
+  ]
+}

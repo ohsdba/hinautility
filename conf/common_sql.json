@@ -1,0 +1,17 @@
+[
+  {
+    "id": "e45027b6-a0d5-4073-a845-5faca93bba4c",
+    "sql": "select version();",
+    "title": "PG、Kingbase版本查询"
+  },
+  {
+    "id": "8dc95103-7c01-4f96-b944-6bebbd39f9a8",
+    "title": "MySQL版本查询",
+    "sql": "select version();"
+  },
+  {
+    "id": "e03004a7-5e2d-409f-a862-92b995b4cde3",
+    "title": "数据库版本",
+    "sql": "select * from v$version;"
+  }
+]

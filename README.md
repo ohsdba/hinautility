@@ -1,8 +1,8 @@
-# 朝阳数据 - SQL查询工具
+# SQL查询工具
 
 ## 项目概述
 
-朝阳数据是一个功能强大的Web-based SQL查询工具，支持多数据库连接、查询执行、结果导出和安全管理。该工具专为数据分析师、开发人员和数据库管理员设计，提供直观的界面和丰富的功能。
+数据爆表工具是一个功能强大的Web-based SQL查询工具，支持多数据库连接、查询执行、结果导出和安全管理。该工具专为数据分析师、开发人员和数据库管理员设计，提供直观的界面和丰富的功能。
 
 ## 核心功能
 
@@ -61,7 +61,7 @@
 ## 项目结构
 
 ```
-朝阳数据/
+hinautility/
 ├── app.py                    # 主应用文件
 ├── requirements.txt          # Python依赖
 ├── conf/                     # 配置文件目录
@@ -91,9 +91,8 @@
 ### 安装步骤
 1. 克隆项目到本地
 2. 安装依赖：`pip install -r requirements.txt`
-3. 配置数据库连接：编辑 `conf/db_config.json`
-4. 启动应用：`python app.py`
-5. 访问：http://localhost:5000
+3. 启动应用：`python app.py`
+4. 访问：http://localhost:5000
 
 ### 配置说明
 详细配置说明请参考 [配置文档](docs/configuration.md)
